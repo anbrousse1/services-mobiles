@@ -1,0 +1,19 @@
+{
+  "name": "babaCar-API",
+  "version": "1.0.0",
+  "description": "API pour la future application babaCar",
+  "title": "babaCar-API",
+  "url" : "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/",
+
+  "footer": {
+    "title": "API réalisée par Brousse Anthony et Gandboeuf Bastien"
+  },
+  "order": [
+    "GetUser",
+    "PostUser"
+  ],
+  "template": {
+  	"withCompare": true,
+  	"withGenerator": true
+  }
+}
