@@ -1,136 +1,228 @@
 {
-	"id": "dab2cff2-3c42-2b20-361b-272da108c020",
-	"name": "Babacar",
-	"description": "",
-	"order": [
-		"82b5c5ae-0d42-bd42-1e7c-96f4986a558a",
-		"4fee2fb8-153a-d34e-e3ff-9e815604d345",
-		"c73bf592-1025-4f60-92eb-89dbcc7d2305",
-		"5ed2a1ab-599b-a9a7-fd31-17ca5d22e0bc"
-	],
-	"folders": [],
-	"folders_order": [],
-	"timestamp": 1516806263946,
-	"owner": 0,
-	"public": false,
-	"events": [],
-	"variables": [],
-	"auth": null,
-	"requests": [
+	"info": {
+		"name": "Babacar",
+		"_postman_id": "dab2cff2-3c42-2b20-361b-272da108c020",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
 		{
-			"id": "4fee2fb8-153a-d34e-e3ff-9e815604d345",
-			"headers": "",
-			"headerData": [],
-			"url": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"events": [],
-			"auth": null,
-			"method": "GET",
-			"collectionId": "dab2cff2-3c42-2b20-361b-272da108c020",
-			"data": null,
-			"dataMode": "params",
+			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fields\": {\n        \"nom\": {\n            \"stringValue\": \"Piano\"\n        }\n\t}\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"jsc7g3HsZ3EDblNL6PGw"
+					]
+				},
+				"description": "get one Utilisateur"
+			},
+			"response": []
+		},
+		{
 			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
-			"description": "get all Utilisateur",
-			"descriptionFormat": "html",
-			"time": 1516806301801,
-			"version": 2,
-			"responses": [],
-			"currentHelper": null,
-			"helperAttributes": null
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						""
+					]
+				},
+				"description": "get all Utilisateur"
+			},
+			"response": []
 		},
 		{
-			"id": "5ed2a1ab-599b-a9a7-fd31-17ca5d22e0bc",
-			"headers": "Content-Type: application/json\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"events": [],
-			"auth": null,
-			"method": "POST",
-			"collectionId": "dab2cff2-3c42-2b20-361b-272da108c020",
-			"data": [],
-			"dataMode": "raw",
 			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
-			"description": "ajout d'un utilisateur",
-			"descriptionFormat": "html",
-			"time": 1516806408770,
-			"version": 2,
-			"responses": [],
-			"currentHelper": null,
-			"helperAttributes": null,
-			"rawModeData": "{\n\t\"fields\": {\n        \"nom\": {\n            \"stringValue\": \"L'éléphant\"\n        },\n        \n        \"prenom\" : {\n        \t\"stringValue\" : \"BABAR\"\n        }\n}\n\n}"
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"fields\": {\n        \"prenom\": {\n            \"stringValue\": \"Olivier\"\n        },\n        \"nom\": {\n            \"stringValue\": \"Pagnier\"\n        }\n    }\n\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"jsc7g3HsZ3EDblNL6PGw"
+					]
+				},
+				"description": "Modification d'un utilisateur"
+			},
+			"response": []
 		},
 		{
-			"id": "82b5c5ae-0d42-bd42-1e7c-96f4986a558a",
-			"headers": "Content-Type: application/json\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"events": [],
-			"auth": null,
-			"method": "GET",
-			"collectionId": "dab2cff2-3c42-2b20-361b-272da108c020",
-			"data": [],
-			"dataMode": "raw",
 			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
-			"description": "get one Utilisateur",
-			"descriptionFormat": "html",
-			"time": 1516806273433,
-			"version": 2,
-			"responses": [],
-			"currentHelper": null,
-			"helperAttributes": null,
-			"rawModeData": "{\n\t\"fields\": {\n        \"nom\": {\n            \"stringValue\": \"Piano\"\n        }\n\t}\n}"
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"fields\": {\n        \"nom\": {\n            \"stringValue\": \"Bob\"\n        },\n        \n        \"prenom\" : {\n        \t\"stringValue\" : \"BABAR\"\n        },\n        \"mdp\" : {\n        \t\"stringValue\" : \"123456\"\n        },\n        \"mail\" : {\n        \t\"stringValue\" : \"bab@live.fr\"\n        },\n        \"telephone\" : {\n        \t\"stringValue\" : \"0585957869\"\n        },\n        \"ddn\" : {\n        \t\"timestampValue\": \"2018-01-14T23:00:00Z\"\n        }\n}\n\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						""
+					]
+				},
+				"description": "ajout d'un utilisateur"
+			},
+			"response": []
 		},
 		{
-			"id": "c73bf592-1025-4f60-92eb-89dbcc7d2305",
-			"headers": "Content-Type: application/json\n",
-			"headerData": [
-				{
-					"key": "Content-Type",
-					"value": "application/json",
-					"description": "",
-					"enabled": true
-				}
-			],
-			"url": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
-			"queryParams": [],
-			"events": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"method": "PATCH",
-			"data": [],
-			"dataMode": "raw",
-			"version": 2,
-			"auth": null,
-			"time": 1516806679125,
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
-			"description": "Modification d'un utilisateur",
-			"collectionId": "dab2cff2-3c42-2b20-361b-272da108c020",
-			"responses": [],
-			"currentHelper": null,
-			"helperAttributes": null,
-			"rawModeData": "{\n  \"fields\": {\n        \"prenom\": {\n            \"stringValue\": \"Olivier\"\n        },\n        \"nom\": {\n            \"stringValue\": \"Pagnier\"\n        }\n    }\n\n}"
+			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"note\": {\n            \"integerValue\": \"1\"\n        },\n        \"utilisateur\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/TtmaugyLlkKnJw0AxUGN\"\n        },\n        \"commentaire\": {\n            \"stringValue\": \"Voyage cool\"\n        },\n        \"date\": {\n        \t\"timestampValue\": \"2018-01-14T23:00:00Z\"\n        } \n        \n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"B9QDHmD7E3E5nGPzYNWw",
+						"Avis",
+						""
+					]
+				},
+				"description": "Ajout d'un avis sur un utilisateur"
+			},
+			"response": []
+		},
+		{
+			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"note\": {\n            \"integerValue\": \"1\"\n        },\n        \"utilisateur\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/TtmaugyLlkKnJw0AxUGN\"\n        },\n        \"commentaire\": {\n            \"stringValue\": \"Voyage Bof\"\n        },\n        \"date\": {\n        \t\"timestampValue\": \"2018-01-14T23:00:00Z\"\n        } \n        \n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"B9QDHmD7E3E5nGPzYNWw",
+						"Avis",
+						"flD5DhbAhkMuoPUQyWNF"
+					]
+				},
+				"description": "Modificatio d'un avis sur un utilisateur"
+			},
+			"response": []
 		}
 	]
 }
