@@ -1,5 +1,230 @@
 define({ "api": [
   {
+    "type": "post",
+    "url": "Utilisateur/id/Avis",
+    "title": "Ajout d'un avis",
+    "name": "CreateAvis",
+    "group": "Avis",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "Utilisateur",
+            "description": "<p>utilisateur ayant écrit l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'avis.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Utilisateur\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "UtilisateurNotFound",
+            "description": "<p>The id of the Utilisateur was not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"UtilisateurNotFound\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/avis.js",
+    "groupTitle": "Avis"
+  },
+  {
+    "type": "get",
+    "url": "Utilisateur/id/Avis",
+    "title": "Obtention de tout les avis pour un utilisateur",
+    "name": "GetAllAvisForOneUtilisateur",
+    "group": "Avis",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "Utilisateur",
+            "description": "<p>utilisateur ayant écrit l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'avis.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis\",\n          \"fields\": {\n              \"Utilisateur\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      },\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF\",\n         \"fields\": {\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage Bof\"\n             },\n              \"note\": {\n                  \"integerValue\": \"1\"\n              },\n              \"date\": {\n                  \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"utilisateur\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/TtmaugyLlkKnJw0AxUGN\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:23:14.322541Z\",\n          \"updateTime\": \"2018-01-31T16:25:27.758381Z\"\n      }\n  ]\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/avis.js",
+    "groupTitle": "Avis"
+  },
+  {
+    "type": "get",
+    "url": "Utilisateur/id/Avis/id",
+    "title": "Obtention d'un les avis pour un utilisateur",
+    "name": "GetOneAvisForOneUtilisateur",
+    "group": "Avis",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "Utilisateur",
+            "description": "<p>utilisateur ayant écrit l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'avis.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Utilisateur\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/avis.js",
+    "groupTitle": "Avis"
+  },
+  {
+    "type": "patch",
+    "url": "Utilisateur/id/Avis/id",
+    "title": "Modification d'un utilisateur",
+    "name": "UpdateAvis",
+    "group": "Avis",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "Utilisateur",
+            "description": "<p>utilisateur ayant écrit l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'avis.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'avis.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Utilisateur\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "UtilisateurNotFound",
+            "description": "<p>The id of the Utilisateur was not found.</p>"
+          },
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "AVISNotFound",
+            "description": "<p>The id of the Avis was not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"UtilisateurNotFound\"\n}",
+          "type": "json"
+        },
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"AvisNotFound\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/avis.js",
+    "groupTitle": "Avis"
+  },
+  {
     "success": {
       "fields": {
         "Success 200": [
@@ -22,7 +247,7 @@ define({ "api": [
     "type": "",
     "url": "",
     "version": "0.0.0",
-    "filename": "./apidoc/main.js",
+    "filename": "../docBabaCar/apidoc/main.js",
     "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_apidoc_main_js",
     "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_apidoc_main_js",
     "name": ""
@@ -93,7 +318,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./conducteur.js",
+    "filename": "../docBabaCar/conducteur.js",
     "groupTitle": "Conducteur"
   },
   {
@@ -162,7 +387,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./conducteur.js",
+    "filename": "../docBabaCar/conducteur.js",
     "groupTitle": "Conducteur"
   },
   {
@@ -231,7 +456,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./conducteur.js",
+    "filename": "../docBabaCar/conducteur.js",
     "groupTitle": "Conducteur"
   },
   {
@@ -300,7 +525,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./conducteur.js",
+    "filename": "../docBabaCar/conducteur.js",
     "groupTitle": "Conducteur"
   },
   {
@@ -369,7 +594,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./localisation.js",
+    "filename": "../docBabaCar/localisation.js",
     "groupTitle": "Localisation"
   },
   {
@@ -438,7 +663,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./localisation.js",
+    "filename": "../docBabaCar/localisation.js",
     "groupTitle": "Localisation"
   },
   {
@@ -507,7 +732,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./localisation.js",
+    "filename": "../docBabaCar/localisation.js",
     "groupTitle": "Localisation"
   },
   {
@@ -576,7 +801,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./localisation.js",
+    "filename": "../docBabaCar/localisation.js",
     "groupTitle": "Localisation"
   },
   {
@@ -645,7 +870,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./passager.js",
+    "filename": "../docBabaCar/passager.js",
     "groupTitle": "Passager"
   },
   {
@@ -714,7 +939,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./passager.js",
+    "filename": "../docBabaCar/passager.js",
     "groupTitle": "Passager"
   },
   {
@@ -783,7 +1008,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./passager.js",
+    "filename": "../docBabaCar/passager.js",
     "groupTitle": "Passager"
   },
   {
@@ -852,51 +1077,45 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./passager.js",
+    "filename": "../docBabaCar/passager.js",
     "groupTitle": "Passager"
   },
   {
     "type": "post",
-    "url": "Segment",
+    "url": "Trajet/id/Segment",
     "title": "Ajout d'un Segment",
-    "name": "AddSegment",
+    "name": "CreateSegment",
     "group": "Segment",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Segment unique ID.</p>"
-          }
-        ]
-      }
-    },
     "success": {
       "fields": {
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Trajet",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "Trajet",
+            "description": "<p>Trajet ayant écrit l'Segment.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'Segment.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'Segment.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Trajet\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
           "type": "json"
         }
       ]
@@ -907,203 +1126,147 @@ define({ "api": [
           {
             "group": "Error 4xx",
             "optional": false,
-            "field": "SegmentNotFound",
-            "description": "<p>The id of the Segment was not found.</p>"
+            "field": "TrajetNotFound",
+            "description": "<p>The id of the Trajet was not found.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"SegmentNotFound\"\n}",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"TrajetNotFound\"\n}",
           "type": "json"
         }
       ]
     },
     "version": "0.0.0",
-    "filename": "./segment.js",
+    "filename": "../docBabaCar/segment.js",
     "groupTitle": "Segment"
   },
   {
     "type": "get",
-    "url": "Segment",
-    "title": "Obtention de tout les Segments",
-    "name": "GetAllSegment",
+    "url": "Trajet/id/Segment",
+    "title": "Obtention de tout les Segment pour un Trajet",
+    "name": "GetAllSegmentForOneTrajet",
     "group": "Segment",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Segment unique ID.</p>"
-          }
-        ]
-      }
-    },
     "success": {
       "fields": {
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Trajet",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "Trajet",
+            "description": "<p>Trajet contenant le Segment.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'Segment.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'Segment.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "SegmentNotFound",
-            "description": "<p>The id of the Segment was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"SegmentNotFound\"\n}",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment\",\n          \"fields\": {\n              \"Trajet\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      },\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF\",\n         \"fields\": {\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage Bof\"\n             },\n              \"note\": {\n                  \"integerValue\": \"1\"\n              },\n              \"date\": {\n                  \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"Trajet\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Trajet/TtmaugyLlkKnJw0AxUGN\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:23:14.322541Z\",\n          \"updateTime\": \"2018-01-31T16:25:27.758381Z\"\n      }\n  ]\n}",
           "type": "json"
         }
       ]
     },
     "version": "0.0.0",
-    "filename": "./segment.js",
+    "filename": "../docBabaCar/segment.js",
     "groupTitle": "Segment"
   },
   {
     "type": "get",
-    "url": "Segment/id",
-    "title": "Obtention d'un Segment",
-    "name": "GetSegment",
+    "url": "Trajet/id/Segment/id",
+    "title": "Obtention d'un les Segment pour un Trajet",
+    "name": "GetOneSegmentForOneTrajet",
     "group": "Segment",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Segment unique ID.</p>"
-          }
-        ]
-      }
-    },
     "success": {
       "fields": {
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Trajet",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "Trajet",
+            "description": "<p>Trajet ayant écrit l'Segment.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'Segment.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'Segment.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "SegmentNotFound",
-            "description": "<p>The id of the Segment was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"SegmentNotFound\"\n}",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Trajet\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
           "type": "json"
         }
       ]
     },
     "version": "0.0.0",
-    "filename": "./segment.js",
+    "filename": "../docBabaCar/segment.js",
     "groupTitle": "Segment"
   },
   {
     "type": "patch",
-    "url": "Segment",
-    "title": "Modification d'un Segment",
-    "name": "PutSegment",
+    "url": "Trajet/id/Segments/id",
+    "title": "Modification d'un Trajet",
+    "name": "UpdateSegment",
     "group": "Segment",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Segment unique ID.</p>"
-          }
-        ]
-      }
-    },
     "success": {
       "fields": {
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Trajet",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
+            "field": "Trajet",
+            "description": "<p>Trajet ayant écrit l'Segment.</p>"
           },
           {
             "group": "Success 200",
             "type": "String",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "commentaire",
+            "description": "<p>Commentaire de l'Segment.</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Integer",
+            "optional": false,
+            "field": "note",
+            "description": "<p>Note de l'Segment.</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
+          "content": "HTTP/1.1 200 OK\n{      \n  \"documents\": [\n      {\n          \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF\",\n          \"fields\": {\n              \"Trajet\": {\n                  \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU\"\n              },\n              \"date\": {\n                   \"timestampValue\": \"2018-01-14T23:00:00Z\"\n              },\n              \"commentaire\": {\n                  \"stringValue\": \"Voyage très sympathique avec mon peitit Anthony\"\n             },\n              \"note\": {\n                  \"integerValue\": \"5\"\n              }\n          },\n          \"createTime\": \"2018-01-31T16:05:32.844468Z\",\n          \"updateTime\": \"2018-01-31T16:08:05.774570Z\"\n      }\n  ]\n}",
           "type": "json"
         }
       ]
@@ -1111,6 +1274,12 @@ define({ "api": [
     "error": {
       "fields": {
         "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "TrajetNotFound",
+            "description": "<p>The id of the Trajet was not found.</p>"
+          },
           {
             "group": "Error 4xx",
             "optional": false,
@@ -1122,13 +1291,18 @@ define({ "api": [
       "examples": [
         {
           "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"TrajetNotFound\"\n}",
+          "type": "json"
+        },
+        {
+          "title": "Error-Response:",
           "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"SegmentNotFound\"\n}",
           "type": "json"
         }
       ]
     },
     "version": "0.0.0",
-    "filename": "./segment.js",
+    "filename": "../docBabaCar/segment.js",
     "groupTitle": "Segment"
   },
   {
@@ -1199,7 +1373,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./trajet.js",
+    "filename": "../docBabaCar/trajet.js",
     "groupTitle": "Trajet"
   },
   {
@@ -1257,7 +1431,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./trajet.js",
+    "filename": "../docBabaCar/trajet.js",
     "groupTitle": "Trajet"
   },
   {
@@ -1347,7 +1521,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./trajet.js",
+    "filename": "../docBabaCar/trajet.js",
     "groupTitle": "Trajet"
   },
   {
@@ -1442,7 +1616,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./trajet.js",
+    "filename": "../docBabaCar/trajet.js",
     "groupTitle": "Trajet"
   },
   {
@@ -1539,7 +1713,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./utilisateur.js",
+    "filename": "../docBabaCar/utilisateur.js",
     "groupTitle": "Utilisateur"
   },
   {
@@ -1604,7 +1778,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./utilisateur.js",
+    "filename": "../docBabaCar/utilisateur.js",
     "groupTitle": "Utilisateur"
   },
   {
@@ -1701,12 +1875,12 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./utilisateur.js",
+    "filename": "../docBabaCar/utilisateur.js",
     "groupTitle": "Utilisateur"
   },
   {
     "type": "patch",
-    "url": "Utilisateur",
+    "url": "Utilisateur/id",
     "title": "Modification d'un utilisateur",
     "name": "PutUtilisateur",
     "group": "Utilisateur",
@@ -1798,7 +1972,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./utilisateur.js",
+    "filename": "../docBabaCar/utilisateur.js",
     "groupTitle": "Utilisateur"
   },
   {
@@ -1867,7 +2041,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./vehicule.js",
+    "filename": "../docBabaCar/vehicule.js",
     "groupTitle": "Vehicule"
   },
   {
@@ -1936,7 +2110,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./vehicule.js",
+    "filename": "../docBabaCar/vehicule.js",
     "groupTitle": "Vehicule"
   },
   {
@@ -2005,7 +2179,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./vehicule.js",
+    "filename": "../docBabaCar/vehicule.js",
     "groupTitle": "Vehicule"
   },
   {
@@ -2074,7 +2248,7 @@ define({ "api": [
       ]
     },
     "version": "0.0.0",
-    "filename": "./vehicule.js",
+    "filename": "../docBabaCar/vehicule.js",
     "groupTitle": "Vehicule"
   }
 ] });

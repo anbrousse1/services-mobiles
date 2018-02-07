@@ -185,7 +185,7 @@
 
  
  /**
- * @api {patch} Utilisateur Modification d'un utilisateur
+ * @api {patch} Utilisateur/id Modification d'un utilisateur
  * @apiName PutUtilisateur
  * @apiGroup Utilisateur
  *

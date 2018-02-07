@@ -1,22 +1,22 @@
 /**
- * @api {get} Trajet/id/Segment Obtention de tout les Segment pour un Trajet
- * @apiName GetAllSegmentForOneTrajet
- * @apiGroup Segment
+ * @api {get} Utilisateur/id/Avis Obtention de tout les avis pour un utilisateur
+ * @apiName GetAllAvisForOneUtilisateur
+ * @apiGroup Avis
  *
  *
- * @apiSuccess {Trajet} Trajet Trajet contenant le Segment.
- * @apiSuccess {String} commentaire  Commentaire de l'Segment.
- * @apiSuccess {Integer} note  Note de l'Segment.
+ * @apiSuccess {Utilisateur} Utilisateur utilisateur ayant écrit l'avis.
+ * @apiSuccess {String} commentaire  Commentaire de l'avis.
+ * @apiSuccess {Integer} note  Note de l'avis.
  * 
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
  *     {      
  *       "documents": [
  *           {
- *               "name": "projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment",
+ *               "name": "projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis",
  *               "fields": {
- *                   "Trajet": {
- *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU"
+ *                   "Utilisateur": {
+ *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU"
  *                   },
  *                   "date": {
  *                        "timestampValue": "2018-01-14T23:00:00Z"
@@ -32,7 +32,7 @@
  *               "updateTime": "2018-01-31T16:08:05.774570Z"
  *           },
  *           {
- *               "name": "projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF",
+ *               "name": "projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
  *              "fields": {
  *                   "commentaire": {
  *                       "stringValue": "Voyage Bof"
@@ -43,8 +43,8 @@
  *                   "date": {
  *                       "timestampValue": "2018-01-14T23:00:00Z"
  *                   },
- *                   "Trajet": {
- *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Trajet/TtmaugyLlkKnJw0AxUGN"
+ *                   "utilisateur": {
+ *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Utilisateur/TtmaugyLlkKnJw0AxUGN"
  *                   }
  *               },
  *               "createTime": "2018-01-31T16:23:14.322541Z",
@@ -56,24 +56,24 @@
  */
 
 /**
- * @api {get} Trajet/id/Segment/id Obtention d'un les Segment pour un Trajet
- * @apiName GetOneSegmentForOneTrajet
- * @apiGroup Segment
+ * @api {get} Utilisateur/id/Avis/id Obtention d'un les avis pour un utilisateur
+ * @apiName GetOneAvisForOneUtilisateur
+ * @apiGroup Avis
  *
  *
- * @apiSuccess {Trajet} Trajet Trajet ayant écrit l'Segment.
- * @apiSuccess {String} commentaire  Commentaire de l'Segment.
- * @apiSuccess {Integer} note  Note de l'Segment.
+ * @apiSuccess {Utilisateur} Utilisateur utilisateur ayant écrit l'avis.
+ * @apiSuccess {String} commentaire  Commentaire de l'avis.
+ * @apiSuccess {Integer} note  Note de l'avis.
  * 
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
  *     {      
  *       "documents": [
  *           {
- *               "name": "projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF",
+ *               "name": "projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
  *               "fields": {
- *                   "Trajet": {
- *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU"
+ *                   "Utilisateur": {
+ *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU"
  *                   },
  *                   "date": {
  *                        "timestampValue": "2018-01-14T23:00:00Z"
@@ -95,13 +95,13 @@
 
  
  /**
- * @api {post} Trajet/id/Segment Ajout d'un Segment
- * @apiName CreateSegment
- * @apiGroup Segment
+ * @api {post} Utilisateur/id/Avis Ajout d'un avis
+ * @apiName CreateAvis
+ * @apiGroup Avis
  *
- * @apiSuccess {Trajet} Trajet Trajet ayant écrit l'Segment.
- * @apiSuccess {String} commentaire  Commentaire de l'Segment.
- * @apiSuccess {Integer} note  Note de l'Segment.
+ * @apiSuccess {Utilisateur} Utilisateur utilisateur ayant écrit l'avis.
+ * @apiSuccess {String} commentaire  Commentaire de l'avis.
+ * @apiSuccess {Integer} note  Note de l'avis.
  *
  *
  * @apiSuccessExample Success-Response:
@@ -109,10 +109,10 @@
  *     {      
  *       "documents": [
  *           {
- *               "name": "projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF",
+ *               "name": "projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
  *               "fields": {
- *                   "Trajet": {
- *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU"
+ *                   "Utilisateur": {
+ *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU"
  *                   },
  *                   "date": {
  *                        "timestampValue": "2018-01-14T23:00:00Z"
@@ -130,24 +130,24 @@
  *       ]
  *     }
  * 
- * @apiError TrajetNotFound The id of the Trajet was not found.
+ * @apiError UtilisateurNotFound The id of the Utilisateur was not found.
  *
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
  *     {
- *       "error": "TrajetNotFound"
+ *       "error": "UtilisateurNotFound"
  *     }
  */
 
  
  /**
- * @api {patch} Trajet/id/Segments/id Modification d'un Trajet
- * @apiName UpdateSegment
- * @apiGroup Segment 
+ * @api {patch} Utilisateur/id/Avis/id Modification d'un utilisateur
+ * @apiName UpdateAvis
+ * @apiGroup Avis 
  *
- * @apiSuccess {Trajet} Trajet Trajet ayant écrit l'Segment.
- * @apiSuccess {String} commentaire  Commentaire de l'Segment.
- * @apiSuccess {Integer} note  Note de l'Segment.
+ * @apiSuccess {Utilisateur} Utilisateur utilisateur ayant écrit l'avis.
+ * @apiSuccess {String} commentaire  Commentaire de l'avis.
+ * @apiSuccess {Integer} note  Note de l'avis.
  *
  *
 * @apiSuccessExample Success-Response:
@@ -155,10 +155,10 @@
  *     {      
  *       "documents": [
  *           {
- *               "name": "projects/babacar-88701/databases/(default)/documents/Trajet/B9QDHmD7E3E5nGPzYNWw/Segment/flD5DhbAhkMuoPUQyWNF",
+ *               "name": "projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
  *               "fields": {
- *                   "Trajet": {
- *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Trajet/RvAHHe6t1ndYvFtucOBU"
+ *                   "Utilisateur": {
+ *                       "referenceValue": "projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU"
  *                   },
  *                   "date": {
  *                        "timestampValue": "2018-01-14T23:00:00Z"
@@ -176,19 +176,19 @@
  *       ]
  *     }
  * 
- * @apiError TrajetNotFound The id of the Trajet was not found.
+ * @apiError UtilisateurNotFound The id of the Utilisateur was not found.
  *
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
  *     {
- *       "error": "TrajetNotFound"
+ *       "error": "UtilisateurNotFound"
  *     }
  * 
- * @apiError SegmentNotFound The id of the Segment was not found.
+ * @apiError AVISNotFound The id of the Avis was not found.
  *
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
  *     {
- *       "error": "SegmentNotFound"
+ *       "error": "AvisNotFound"
  *     }
  */

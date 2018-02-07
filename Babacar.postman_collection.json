@@ -1,13 +1,13 @@
 {
 	"info": {
 		"name": "Babacar",
-		"_postman_id": "dab2cff2-3c42-2b20-361b-272da108c020",
+		"_postman_id": "413daed7-ddbd-84b4-daf1-76203c9d808a",
 		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+			"name": "Get1Utilisateur",
 			"request": {
 				"method": "GET",
 				"header": [
@@ -44,11 +44,14 @@
 			"response": []
 		},
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
+			"name": "GetAllUtilisateur",
 			"request": {
 				"method": "GET",
 				"header": [],
-				"body": {},
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
 				"url": {
 					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
 					"protocol": "https",
@@ -73,7 +76,7 @@
 			"response": []
 		},
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+			"name": "UpdateUtilisateur",
 			"request": {
 				"method": "PATCH",
 				"header": [
@@ -110,7 +113,7 @@
 			"response": []
 		},
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+			"name": "CreateUtilisateur",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -147,7 +150,7 @@
 			"response": []
 		},
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/",
+			"name": "CreateAvis",
 			"request": {
 				"method": "POST",
 				"header": [
@@ -186,7 +189,7 @@
 			"response": []
 		},
 		{
-			"name": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
+			"name": "UpdateAvis",
 			"request": {
 				"method": "PATCH",
 				"header": [
@@ -221,6 +224,129 @@
 					]
 				},
 				"description": "Modificatio d'un avis sur un utilisateur"
+			},
+			"response": []
+		},
+		{
+			"name": "Get1Avis",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/flD5DhbAhkMuoPUQyWNF",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"B9QDHmD7E3E5nGPzYNWw",
+						"Avis",
+						"flD5DhbAhkMuoPUQyWNF"
+					]
+				},
+				"description": "Retourne un avis pour un Utilisateur"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllAvisFor1Utilisateur",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw/Avis/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"B9QDHmD7E3E5nGPzYNWw",
+						"Avis",
+						""
+					]
+				},
+				"description": "retourne les avis données pour un conducteur"
+			},
+			"response": []
+		},
+		{
+			"name": "getAllSegmentsForOneTrajet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getOneSegmentForOneTrajet",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe"
+					]
+				},
+				"description": ""
 			},
 			"response": []
 		}
