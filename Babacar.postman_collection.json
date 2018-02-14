@@ -9,6 +9,16 @@
 		{
 			"name": "Get1Utilisateur",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [
 					{
@@ -21,7 +31,7 @@
 					"raw": "{\n\t\"fields\": {\n        \"nom\": {\n            \"stringValue\": \"Piano\"\n        }\n\t}\n}"
 				},
 				"url": {
-					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/jsc7g3HsZ3EDblNL6PGw",
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw",
 					"protocol": "https",
 					"host": [
 						"firestore",
@@ -36,7 +46,7 @@
 						"(default)",
 						"documents",
 						"Utilisateur",
-						"jsc7g3HsZ3EDblNL6PGw"
+						"B9QDHmD7E3E5nGPzYNWw"
 					]
 				},
 				"description": "get one Utilisateur"
@@ -46,12 +56,19 @@
 		{
 			"name": "GetAllUtilisateur",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
-				"body": {
-					"mode": "raw",
-					"raw": ""
-				},
+				"body": {},
 				"url": {
 					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/",
 					"protocol": "https",
@@ -78,6 +95,16 @@
 		{
 			"name": "UpdateUtilisateur",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PATCH",
 				"header": [
 					{
@@ -115,6 +142,16 @@
 		{
 			"name": "CreateUtilisateur",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -152,6 +189,16 @@
 		{
 			"name": "CreateAvis",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "POST",
 				"header": [
 					{
@@ -191,6 +238,16 @@
 		{
 			"name": "UpdateAvis",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "PATCH",
 				"header": [
 					{
@@ -230,6 +287,16 @@
 		{
 			"name": "Get1Avis",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -261,6 +328,16 @@
 		{
 			"name": "getAllAvisFor1Utilisateur",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -292,6 +369,16 @@
 		{
 			"name": "getAllSegmentsForOneTrajet",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -322,6 +409,16 @@
 		{
 			"name": "getOneSegmentForOneTrajet",
 			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
 				"method": "GET",
 				"header": [],
 				"body": {},
@@ -344,6 +441,561 @@
 						"0pfKKbFvRY0IIsMPTB0Q",
 						"Segments",
 						"06Vp6L8ckkbxekSw94Fe"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllPassagerForOneSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe",
+						"Passagers",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetPassagerForOneSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe",
+						"Passagers",
+						"fZMoyhuau3ve12b0LfZC"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "AddPassagerForOneSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"fields\": {\n                \"passager\": {\n                    \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/yFMhqUldSfDZLXz5Gs7l\"\n                }\n            }\n            \n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe",
+						"Passagers",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdatePassagerForOneSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"fields\": {\n                \"passager\": {\n                    \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/TtmaugyLlkKnJw0AxUGN\"\n                }\n            }\n            \n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/XW1gePBWRGA3pSmZzna",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe",
+						"Passagers",
+						"XW1gePBWRGA3pSmZzna"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetTrajet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetOneTrajet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTrajet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"date\": {\n            \"timestampValue\": \"2018-03-15T14:00:00Z\"\n        },\n        \"remarque\": {\n            \"stringValue\": \"COOL\"\n        },\n        \"prix\": {\n            \"integerValue\": \"25\"\n        },\n        \"conducteur\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n        },\n        \"nbPlace\": {\n            \"integerValue\": \"2\"\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTrajet",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"date\": {\n            \"timestampValue\": \"2018-03-15T14:00:00Z\"\n        },\n        \"remarque\": {\n            \"stringValue\": \"OK\"\n        },\n        \"prix\": {\n            \"integerValue\": \"25\"\n        },\n        \"conducteur\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU\"\n        },\n        \"nbPlace\": {\n            \"integerValue\": \"2\"\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"localisation2\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Localisation/YxnjabWGVou9huf24Axd\"\n        },\n        \"prix\": {\n            \"integerValue\": \"24\"\n        },\n        \"localisation1\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Localisation/YxnjabWGVou9huf24Axd\"\n        },\n          \"nbPassager\": {\n            \"integerValue\": \"24\"\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						"06Vp6L8ckkbxekSw94Fe"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateSegment",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"fields\": {\n        \"localisation2\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Localisation/YxnjabWGVou9huf24Axd\"\n        },\n        \"prix\": {\n            \"integerValue\": \"24\"\n        },\n        \"localisation1\": {\n            \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Localisation/YxnjabWGVou9huf24Axd\"\n        },\n          \"nbPassager\": {\n            \"integerValue\": \"24\"\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Trajet",
+						"0pfKKbFvRY0IIsMPTB0Q",
+						"Segments",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllLocalisation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Localisation",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Localisation"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateLocalisation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n \"fields\": {\n                \"geolocalisation\": {\n                    \"geoPointValue\": {\n                        \"latitude\": 12,\n                        \"longitude\": 54\n                    }\n                },\n                \"adresse\": {\n                    \"stringValue\": \"Clermont\"\n                }\n            }\n        }"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Localisation",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Localisation"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "GetLocalisation",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltiBbRM3qMTpT0IvlSg6UZwtfxTR3GSAeluWuO9wZZ8P-5LWuNzzhEqJGxavyeEyvfgKw2zcyIddrle1jKa3qcOVUQxtfvRkGnm8WUGcT-vOzfoXG8Zet-GtWvR",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Localisation/s2M7J0GhXc9kWid5FhHB",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Localisation",
+						"s2M7J0GhXc9kWid5FhHB"
 					]
 				},
 				"description": ""

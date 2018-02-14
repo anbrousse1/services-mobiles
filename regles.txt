@@ -1,0 +1,61 @@
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+
+        
+    match /Utilisateur/{Utilisateur} {
+    
+    	function userFieldsAreComplete() {
+      		return (request.resource.data.nom != null && request.resource.data.prenom != null && request.resource.data.mail != null && 
+      		request.resource.data.telephone != null && request.resource.data.mdp != null && request.resource.data.ddn != null)
+    	}
+      
+      function avisFieldsAreComplete(){
+      	return (request.resource.data.commentaire != null && request.resource.data.note != null && exists(request.resource.data.utilisateur)
+        && request.resource.data.date !=null)
+      }
+      
+      allow create, write, update : if userFieldsComplete();
+      allow read : if request.auth.uid 
+      			
+            match /Avis/{Avis}{
+            	allow read  : if request.auth.uid
+              allow create, update : if request.auth.uid &&avisFieldsAreComplete(); 
+            }
+            
+            match /Vehicules/{Vehicules}{
+            	allow read  : if request.auth.uid
+              allow create, update  : if request.auth.uid && request.resource.data.nbPlace != null && request.resource.data.couleur != null &&
+              request.resource.data.marque != null && request.resource.data.modele != null ;
+            }
+            
+    }
+    
+  
+    
+    match /Trajet/{Trajet}{
+    		allow read  : if request.auth.uid
+        allow update,create : if request.resource.data.prix > 0 &&  request.resource.data.date != null && request.resource.data.nbPlace >0
+        && exists(request.resource.data.conducteur)&& request.auth.uid
+        
+        match /Segments/{Segment}{
+        		allow read  : if request.auth.uid
+						allow create, update : if request.auth.uid && exists(request.resource.data.localisation1) && exists(request.resource.data.localisation2) 
+            && request.resource.data.prix > 0 && request.resource.data.nbPassager > 0;
+            
+            match /Passagers/{Passagers}{
+        			allow read : if request.auth.uid 
+            	allow create, update : if request.auth.uid &&  exists(request.resource.data.passager)
+        		}
+        }
+        
+    }
+    
+    match /Localisations/{Localistation}{
+    	allow write, read;
+    }
+    
+  }
+  
+  
+}

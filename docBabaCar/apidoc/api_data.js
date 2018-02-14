@@ -254,282 +254,6 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "Conducteur",
-    "title": "Ajout d'un Conducteur",
-    "name": "AddConducteur",
-    "group": "Conducteur",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Conducteur unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "ConducteurNotFound",
-            "description": "<p>The id of the Conducteur was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"ConducteurNotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/conducteur.js",
-    "groupTitle": "Conducteur"
-  },
-  {
-    "type": "get",
-    "url": "Conducteur",
-    "title": "Obtention de tout les Conducteurs",
-    "name": "GetAllConducteur",
-    "group": "Conducteur",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Conducteur unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "ConducteurNotFound",
-            "description": "<p>The id of the Conducteur was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"ConducteurNotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/conducteur.js",
-    "groupTitle": "Conducteur"
-  },
-  {
-    "type": "get",
-    "url": "Conducteur/id",
-    "title": "Obtention d'un Conducteur",
-    "name": "GetConducteur",
-    "group": "Conducteur",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Conducteur unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "ConducteurNotFound",
-            "description": "<p>The id of the Conducteur was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"ConducteurNotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/conducteur.js",
-    "groupTitle": "Conducteur"
-  },
-  {
-    "type": "patch",
-    "url": "Conducteur",
-    "title": "Modification d'un Conducteur",
-    "name": "PutConducteur",
-    "group": "Conducteur",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Conducteur unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "ConducteurNotFound",
-            "description": "<p>The id of the Conducteur was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"Conducteur NotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/conducteur.js",
-    "groupTitle": "Conducteur"
-  },
-  {
-    "type": "post",
     "url": "Localisation",
     "title": "Ajout d'une Localisation",
     "name": "AddLocalisation",
@@ -806,9 +530,9 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "Passager",
-    "title": "Ajout d'un Passager",
-    "name": "AddPassager",
+    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
+    "title": "Ajout d'un passager pour un segment",
+    "name": "GetAllPassagerForOneSegment",
     "group": "Passager",
     "parameter": {
       "fields": {
@@ -828,165 +552,13 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Utilisateur",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "PassagerNotFound",
-            "description": "<p>The id of the Passager was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/passager.js",
-    "groupTitle": "Passager"
-  },
-  {
-    "type": "get",
-    "url": "Passager",
-    "title": "Obtention de tout les Passagers",
-    "name": "GetAllPassager",
-    "group": "Passager",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Passager unique ID.</p>"
+            "field": "utilisateur",
+            "description": "<p>Utilisateur</p> <pre><code>HTTP/1.1 200 OK </code></pre> <p>{ &quot;documents&quot;: [ { &quot;name&quot;: &quot;projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC&quot;, &quot;fields&quot;: { &quot;Utilisateur&quot;: { &quot;referenceValue&quot;: &quot;projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw&quot; } }, &quot;createTime&quot;: &quot;2018-02-07T15:45:06.862550Z&quot;, &quot;updateTime&quot;: &quot;2018-02-14T14:54:30.305046Z&quot; } ] }</p>"
           }
         ]
       }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "PassagerNotFound",
-            "description": "<p>The id of the Passager was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
-          "type": "json"
-        }
-      ]
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/passager.js",
-    "groupTitle": "Passager"
-  },
-  {
-    "type": "get",
-    "url": "Passager/id",
-    "title": "Obtention d'un Passager",
-    "name": "GetPassager",
-    "group": "Passager",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Passager unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
-          {
-            "group": "Success 200",
-            "type": "String",
-            "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
-          "type": "json"
-        }
-      ]
     },
     "error": {
       "fields": {
@@ -1013,9 +585,9 @@ define({ "api": [
   },
   {
     "type": "patch",
-    "url": "Passager",
-    "title": "Modification d'un Passager",
-    "name": "PutPassager",
+    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
+    "title": "Ajout d'un passager pour un segment",
+    "name": "GetAllPassagerForOneSegment",
     "group": "Passager",
     "parameter": {
       "fields": {
@@ -1035,24 +607,53 @@ define({ "api": [
         "Success 200": [
           {
             "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "utilisateur",
+            "description": "<p>Utilisateur</p> <pre><code>HTTP/1.1 200 OK </code></pre> <p>{ &quot;documents&quot;: [ { &quot;name&quot;: &quot;projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC&quot;, &quot;fields&quot;: { &quot;Utilisateur&quot;: { &quot;referenceValue&quot;: &quot;projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw&quot; } }, &quot;createTime&quot;: &quot;2018-02-07T15:45:06.862550Z&quot;, &quot;updateTime&quot;: &quot;2018-02-14T14:54:30.305046Z&quot; } ] }</p>"
+          }
+        ]
+      }
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/passager.js",
+    "groupTitle": "Passager"
+  },
+  {
+    "type": "get",
+    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
+    "title": "Obtention de tout les Passagers d'un segment",
+    "name": "GetAllPassagerForOneSegment",
+    "group": "Passager",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
             "type": "String",
             "optional": false,
-            "field": "firstname",
-            "description": "<p>Firstname of the User.</p>"
-          },
+            "field": "id",
+            "description": "<p>Passager unique ID.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
           {
             "group": "Success 200",
-            "type": "String",
+            "type": "Utilisateur",
             "optional": false,
-            "field": "lastname",
-            "description": "<p>Lastname of the User.</p>"
+            "field": "utilisateur",
+            "description": "<p>Utilisateur * @api {get} Trajet/id_trajet/Segments/id_segment/Passagers/ Obtention de tout les Passagers d'un segment</p>"
           }
         ]
       },
       "examples": [
         {
           "title": "Success-Response:",
-          "content": "HTTP/1.1 200 OK\n{\n  \"firstname\": \"John\",\n  \"lastname\": \"Doe\"\n}",
+          "content": "  HTTP/1.1 200 OK\n {\n\"documents\": [\n    {\n        \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC\",\n        \"fields\": {\n            \"Utilisateur\": {\n                \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw\"\n            }\n        },\n        \"createTime\": \"2018-02-07T15:45:06.862550Z\",\n        \"updateTime\": \"2018-02-14T14:54:30.305046Z\"\n    }\n   ]\n }",
           "type": "json"
         }
       ]
@@ -1071,7 +672,69 @@ define({ "api": [
       "examples": [
         {
           "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"Passager NotFound\"\n}",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/passager.js",
+    "groupTitle": "Passager"
+  },
+  {
+    "type": "get",
+    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/id_passager",
+    "title": "Obtention d'un passager pour un segment donné",
+    "name": "GetPassagerForOneSegment",
+    "group": "Passager",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Passager unique ID.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "utilisateur",
+            "description": "<p>Utilisateur</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "  HTTP/1.1 200 OK\n {\n\"documents\": [\n    {\n        \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC\",\n        \"fields\": {\n            \"Utilisateur\": {\n                \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw\"\n            }\n        },\n        \"createTime\": \"2018-02-07T15:45:06.862550Z\",\n        \"updateTime\": \"2018-02-14T14:54:30.305046Z\"\n    }\n   ]\n }",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "PassagerNotFound",
+            "description": "<p>The id of the Passager was not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
           "type": "json"
         }
       ]
