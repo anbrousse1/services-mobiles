@@ -1001,6 +1001,134 @@
 				"description": ""
 			},
 			"response": []
+		},
+		{
+			"name": "getVehicule",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltjBTOSbX7gSPU4wVe5de4LvlbCNYOO2gsbrCpks0bOixh5Ttgnl0blfW3vYUUbm3r7qnb9yvafJANeVwphPFx0FULHd1txBvSmS4sDWjqXkr08uJ-9sFVLboAY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU/Vehicules",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"RvAHHe6t1ndYvFtucOBU",
+						"Vehicules"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "CreateVehicule",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltjBTOSbX7gSPU4wVe5de4LvlbCNYOO2gsbrCpks0bOixh5Ttgnl0blfW3vYUUbm3r7qnb9yvafJANeVwphPFx0FULHd1txBvSmS4sDWjqXkr08uJ-9sFVLboAY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"fields\": {\n                \"Commentaire\": {\n                    \"stringValue\": \"\"\n                },\n                \"Couleur\": {\n                    \"stringValue\": \"Noire\"\n                },\n                \"Modele\": {\n                    \"stringValue\": \"207\"\n                },\n                \"nbPlace\": {\n                    \"integerValue\": \"5\"\n                },\n                \"Marque\": {\n                    \"stringValue\": \"Peugeot\"\n                }\n            }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU/Vehicules/",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"RvAHHe6t1ndYvFtucOBU",
+						"Vehicules",
+						""
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateVehicule",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "ya29.GltjBTOSbX7gSPU4wVe5de4LvlbCNYOO2gsbrCpks0bOixh5Ttgnl0blfW3vYUUbm3r7qnb9yvafJANeVwphPFx0FULHd1txBvSmS4sDWjqXkr08uJ-9sFVLboAY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"fields\": {\n                \"Commentaire\": {\n                    \"stringValue\": \"\"\n                },\n                \"Couleur\": {\n                    \"stringValue\": \"vert Fluo\"\n                },\n                \"Modele\": {\n                    \"stringValue\": \"207\"\n                },\n                \"nbPlace\": {\n                    \"integerValue\": \"5\"\n                },\n                \"Marque\": {\n                    \"stringValue\": \"Peugeot\"\n                }\n            }\n}"
+				},
+				"url": {
+					"raw": "https://firestore.googleapis.com/v1beta1/projects/babacar-88701/databases/(default)/documents/Utilisateur/RvAHHe6t1ndYvFtucOBU/Vehicules/vvcjK4BNHh4MQhRhKJES",
+					"protocol": "https",
+					"host": [
+						"firestore",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1beta1",
+						"projects",
+						"babacar-88701",
+						"databases",
+						"(default)",
+						"documents",
+						"Utilisateur",
+						"RvAHHe6t1ndYvFtucOBU",
+						"Vehicules",
+						"vvcjK4BNHh4MQhRhKJES"
+					]
+				},
+				"description": ""
+			},
+			"response": []
 		}
 	]
 }

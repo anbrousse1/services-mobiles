@@ -253,6 +253,926 @@ define({ "api": [
     "name": ""
   },
   {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_browser_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_debug_src_node_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../docBabaCar/node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_docBabaCar_node_modules_ms_index_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/browser.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_browser_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/debug.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_debug_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/debug/src/node.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_debug_src_node_js",
+    "name": "Public"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.d.ts",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_d_ts",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/google-auth-library/build/src/auth/googleauth.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_google_auth_library_build_src_auth_googleauth_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "private",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "name": "Private"
+  },
+  {
+    "type": "",
+    "url": "public",
+    "title": "",
+    "version": "0.0.0",
+    "filename": "../node_modules/ms/index.js",
+    "group": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "groupTitle": "C__Users_Anthony_Desktop_services_mobiles_node_modules_ms_index_js",
+    "name": "Public"
+  },
+  {
     "type": "post",
     "url": "Localisation",
     "title": "Ajout d'une Localisation",
@@ -529,6 +1449,68 @@ define({ "api": [
     "groupTitle": "Localisation"
   },
   {
+    "type": "get",
+    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
+    "title": "Obtention de tout les Passagers d'un segment",
+    "name": "GetAllPassagerForOneSegment",
+    "group": "Passager",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "id",
+            "description": "<p>Passager unique ID.</p>"
+          }
+        ]
+      }
+    },
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "Utilisateur",
+            "optional": false,
+            "field": "utilisateur",
+            "description": "<p>Utilisateur * @api {get} Trajet/id_trajet/Segments/id_segment/Passagers/ Obtention de tout les Passagers d'un segment</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Success-Response:",
+          "content": "  HTTP/1.1 200 OK\n {\n\"documents\": [\n    {\n        \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC\",\n        \"fields\": {\n            \"Utilisateur\": {\n                \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw\"\n            }\n        },\n        \"createTime\": \"2018-02-07T15:45:06.862550Z\",\n        \"updateTime\": \"2018-02-14T14:54:30.305046Z\"\n    }\n   ]\n }",
+          "type": "json"
+        }
+      ]
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "PassagerNotFound",
+            "description": "<p>The id of the Passager was not found.</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Error-Response:",
+          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "version": "0.0.0",
+    "filename": "../docBabaCar/passager.js",
+    "groupTitle": "Passager"
+  },
+  {
     "type": "post",
     "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
     "title": "Ajout d'un passager pour un segment",
@@ -614,68 +1596,6 @@ define({ "api": [
           }
         ]
       }
-    },
-    "version": "0.0.0",
-    "filename": "../docBabaCar/passager.js",
-    "groupTitle": "Passager"
-  },
-  {
-    "type": "get",
-    "url": "Trajet/id_trajet/Segments/id_segment/Passagers/",
-    "title": "Obtention de tout les Passagers d'un segment",
-    "name": "GetAllPassagerForOneSegment",
-    "group": "Passager",
-    "parameter": {
-      "fields": {
-        "Parameter": [
-          {
-            "group": "Parameter",
-            "type": "String",
-            "optional": false,
-            "field": "id",
-            "description": "<p>Passager unique ID.</p>"
-          }
-        ]
-      }
-    },
-    "success": {
-      "fields": {
-        "Success 200": [
-          {
-            "group": "Success 200",
-            "type": "Utilisateur",
-            "optional": false,
-            "field": "utilisateur",
-            "description": "<p>Utilisateur * @api {get} Trajet/id_trajet/Segments/id_segment/Passagers/ Obtention de tout les Passagers d'un segment</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Success-Response:",
-          "content": "  HTTP/1.1 200 OK\n {\n\"documents\": [\n    {\n        \"name\": \"projects/babacar-88701/databases/(default)/documents/Trajet/0pfKKbFvRY0IIsMPTB0Q/Segments/06Vp6L8ckkbxekSw94Fe/Passagers/fZMoyhuau3ve12b0LfZC\",\n        \"fields\": {\n            \"Utilisateur\": {\n                \"referenceValue\": \"projects/babacar-88701/databases/(default)/documents/Utilisateur/B9QDHmD7E3E5nGPzYNWw\"\n            }\n        },\n        \"createTime\": \"2018-02-07T15:45:06.862550Z\",\n        \"updateTime\": \"2018-02-14T14:54:30.305046Z\"\n    }\n   ]\n }",
-          "type": "json"
-        }
-      ]
-    },
-    "error": {
-      "fields": {
-        "Error 4xx": [
-          {
-            "group": "Error 4xx",
-            "optional": false,
-            "field": "PassagerNotFound",
-            "description": "<p>The id of the Passager was not found.</p>"
-          }
-        ]
-      },
-      "examples": [
-        {
-          "title": "Error-Response:",
-          "content": "HTTP/1.1 404 Not Found\n{\n  \"error\": \"PassagerNotFound\"\n}",
-          "type": "json"
-        }
-      ]
     },
     "version": "0.0.0",
     "filename": "../docBabaCar/passager.js",
@@ -1640,9 +2560,9 @@ define({ "api": [
   },
   {
     "type": "post",
-    "url": "Vehicule",
+    "url": "Utilisateur/id/Vehicule",
     "title": "Ajout d'un Vehicule",
-    "name": "AddVehicule",
+    "name": "AddVehiculeForOneUtilisateur",
     "group": "Vehicule",
     "parameter": {
       "fields": {
@@ -1709,9 +2629,9 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "Vehicule",
+    "url": "Utilisateur/id/Vehicule",
     "title": "Obtention de tout les Vehicules",
-    "name": "GetAllVehicule",
+    "name": "GetAllVehiculeForOneUtilisateur",
     "group": "Vehicule",
     "parameter": {
       "fields": {
@@ -1778,9 +2698,9 @@ define({ "api": [
   },
   {
     "type": "get",
-    "url": "Vehicule/id",
+    "url": "Utilisateur/id/Vehicule/id",
     "title": "Obtention d'un Vehicule",
-    "name": "GetVehicule",
+    "name": "GetVehiculeForOneUtilisateur",
     "group": "Vehicule",
     "parameter": {
       "fields": {
@@ -1847,7 +2767,7 @@ define({ "api": [
   },
   {
     "type": "patch",
-    "url": "Vehicule",
+    "url": "Utilisateur/id/Vehicule",
     "title": "Modification d'un Vehicule",
     "name": "PutVehicule",
     "group": "Vehicule",
